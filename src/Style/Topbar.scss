@@ -1,0 +1,9 @@
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 70px;
+   div:first-child {
+    display: flex;
+    align-items: center;
+    }
+}
