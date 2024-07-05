@@ -15,6 +15,7 @@ function Navbar() {
       <header>
         <img className='logo' src={logo} alt='logo tractari'/>
         <nav ref={navRef}>
+        <a href='/#'>Home</a>
           <a href='/#'>Despre noi</a>
           <a href='/#'>Servicii</a>
           <a href='/#'>Contact</a>

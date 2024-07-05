@@ -1,9 +1,60 @@
 .topbar {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: -webkit-fill-available;
+  font-size: 20px;
+  border-bottom: 2px solid grey;
+  margin: 10px 70px;
+  position: absolute;
+  top: 0;
+  background-color: transparent;
+  z-index: 2;
+  @media only screen and (max-width: 567px) {
+    margin: 10px 10px;
+    font-size: 16px;
+  }
+  a,
+  div:first-child {
     display: flex;
-    justify-content: space-between;
-    margin: 10px 70px;
-   div:first-child {
-    display: flex;
+    flex-wrap: wrap;
     align-items: center;
+  }
+  div:first-child {
+    gap: 35px;
+    @media only screen and (max-width: 567px){
+        gap: 5px;
+        justify-content: center;   
     }
+  }
+  a {
+    gap: 10px;
+    @media only screen and (max-width: 567px) {
+        gap: 4px;
+    }
+  }
+  div:first-child {
+    & a {
+      img {
+        height: 35px;
+        width: 35px;
+        margin-bottom: 10px;
+        @media only screen and (max-width: 567px) {
+            height: 25px;
+            width: 25px;  
+            margin-bottom: 0px; 
+        }
+      }
+    }
+  }
+  > a {
+    img {
+      height: 50px;
+      width: 50px;
+      @media only screen and (max-width: 567px) {
+        height: 40px;
+        width: 40px;   
+    }
+    }
+  }
 }

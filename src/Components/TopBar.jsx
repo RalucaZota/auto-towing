@@ -10,11 +10,11 @@ function TopBar() {
         <div>
           <span>24/24 NON STOP</span>
           <a href="">
-          <img src={email} alt='email' height='35' width='35' />
-          </a>
+          <img src={email} alt='email' />
           <span>
             13carfix@gmail.com
           </span>
+          </a>
         </div>
         <a target='_blank' href='https://wa.me/0720261991?'>
           {' '}
