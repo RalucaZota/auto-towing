@@ -1,0 +1,11 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    .card-img {
+        height: 100px;
+        width: 100px;
+    }
+    .card-text {
+        max-width: 300px;
+    }
+}

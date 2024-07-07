@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar'
 import TopBar from './Components/TopBar'
 import HeroCarousel from './Components/Carousel';
+import Home from './Sections/Home';
 function App() {
 
   return (
@@ -15,6 +16,7 @@ function App() {
     <TopBar/>
     <Navbar/>
     <HeroCarousel/>
+    <Home/>
     </BrowserRouter>
   )
 }

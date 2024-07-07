@@ -1,0 +1,41 @@
+.home {
+  display: flex;
+  gap: 150px;
+  height: 750px;
+  background-color: #383e42;
+  &::after {
+    content: '';
+    background-image: url(../assets//background-models.png);
+    width: 100%;
+  }
+  .home-photo::before {
+    content: '';
+    position: absolute;
+    background-image: url(../assets//home-photo.jpg);
+    width: 50%;
+    height: 95%;
+    top: 94%;
+    background-repeat: no-repeat;
+    z-index: 1;
+    border-radius: 5px;
+    border: 10px solid #383e42;
+    @media only screen and (max-width: 1024px) {
+        display: none;
+    }
+  }
+
+  .services {
+    position: relative;
+    left: 170%;
+  }
+
+  img {
+    width: 50%;
+    @media only screen and (max-width: 1024px) {
+      display: none;
+    }
+  }
+  .services {
+    margin: 5% 0;
+  }
+}
