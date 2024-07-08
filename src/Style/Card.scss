@@ -1,11 +1,19 @@
 .card{
     display: flex;
     flex-direction: row;
+    border: none;
+    background: transparent;
+    font-size: 20px;
     .card-img {
-        height: 100px;
-        width: 100px;
+        height: 85px;
+        width: 85px;
+        margin-right: 20px;
     }
     .card-text {
-        max-width: 300px;
+        max-width: 500px;
+        color: white;
+        h4 {
+            font-weight: 600;
+        }
     }
 }
