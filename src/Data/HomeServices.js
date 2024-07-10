@@ -2,6 +2,10 @@ import hoursImage from '../assets/24hours.png';
 import mapsImage from '../assets/maps.png';
 import calendar from '../assets/calendar.png';
 import teamImage from '../assets/team.png';
+import serviceImg from '../assets/serviceImg.jpg';
+import carService from '../assets/car-service.png';
+import carWash from '../assets/car-wash.png';
+import washImg from '../assets/washImg.png';
 
 
 export const homeServices = [{
@@ -31,3 +35,21 @@ export const homeServices = [{
     paragraph: "Our team consists only of professional, serious people who have a rich experience in this industry.."
     
 }]
+
+
+export const otherServices = [{
+    id: 1,
+    backImg: serviceImg,
+    icon:carService,
+    title: 'SERVICE AUTO',
+    paragraph: "Service auto situat pe autostrada A2.",
+    detailsLink: 'https://carfix-garage.ro/'
+},
+{
+    id: 2,
+    backImg:washImg,
+    icon:carWash,
+    title: 'SPALATORIE AUTO',
+    paragraph: "TEXTTT.",
+    detailsLink: 'https://carfix-garage.ro/'
+},]

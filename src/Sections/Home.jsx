@@ -4,11 +4,12 @@ import homePhoto from '../assets/home-photo.jpg';
 import towingHome from '../assets/towing-home.jpg'
 import Card from '../Components/Card.jsx';
 import { homeServices } from '.././Data/HomeServices.js';
+import OtherServicesCard from '../Components/OtherServicesCard.jsx'
 
 function Home() {
   return (
     <>
-      <section className='home'>
+      <section className='section-one'>
         <div className='home-photo'>
             <img src={homePhoto} alt="" />
         </div>
@@ -26,6 +27,9 @@ function Home() {
             })}
           </div>
         </div>
+      </section>
+      <section className='section-two'>
+       <OtherServicesCard/>
       </section>
     </>
   );

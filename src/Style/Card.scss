@@ -1,19 +1,43 @@
-.card{
-    display: flex;
-    flex-direction: row;
-    border: none;
-    background: transparent;
-    font-size: 20px;
-    .card-img {
-        height: 85px;
-        width: 85px;
-        margin-right: 20px;
+.card {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  justify-content: center;
+  @media only screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+  .card-img {
+    height: 85px;
+    width: 85px;
+    margin-right: 20px;
+    animation: flip 3s infinite;
+    transform-style: preserve-3d;
+    @media only screen and (max-width: 768px) {
+      height: 60px;
+      width: 60px;
     }
-    .card-text {
-        max-width: 500px;
-        color: white;
-        h4 {
-            font-weight: 600;
+    @keyframes flip {
+        0% {
+            transform: perspective(1000px) rotateY(0deg);
+        }
+        50% {
+            transform: perspective(1000px) rotateY(180deg);
+        }
+        100% {
+            transform: perspective(1000px) rotateY(360deg);
         }
     }
+  }
+  .card-text {
+    max-width: 500px;
+    color: white;
+    h4 {
+      font-weight: 600;
+      @media only screen and (max-width: 768px) {
+        font-size: 18px;
+      }
+    }
+  }
 }
