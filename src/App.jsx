@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar'
 import TopBar from './Components/TopBar'
 import HeroCarousel from './Components/Carousel';
 import Home from './Sections/Home';
+import AboutUs from './Sections/AboutUs';
 function App() {
 
   return (
@@ -17,6 +18,7 @@ function App() {
     <Navbar/>
     <HeroCarousel/>
     <Home/>
+    <AboutUs/>
     </BrowserRouter>
   )
 }

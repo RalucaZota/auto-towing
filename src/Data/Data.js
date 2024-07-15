@@ -50,6 +50,10 @@ export const otherServices = [{
     backImg:washImg,
     icon:carWash,
     title: 'SPALATORIE AUTO',
-    paragraph: "TEXTTT.",
+    paragraph: "TEXTTT fff dddd fff dfdd sfd.",
     detailsLink: 'https://carfix-garage.ro/'
 },]
+
+export const textAboutUs = {
+    text: 'X a luat fiinta din nevoia de ajutor in situatiile rutiere de urgenta, pe teritoriul României, punand la dispozitia clientilor sai servicii de asistenta rutiera non-stop, atunci cand autoturismul este imobilizat, ajutandu-i sa minimalizeze costurile, prompt si eficient. Cu o experienta de peste 15 ani, deservind peste 23 000 de clienti, X a construit cea mai mare rețea de furnizori de servicii de asistenta rutiera la nivel national si international, atent coordonata de un Call Center gata să îți răspundă solicitărilor 24/7, la 021 9695. 9695 oferă clienților săi garanția că, în orice moment, cineva le va fi alături pentru rezolvarea unei probleme ivite în trafic.'
+}
