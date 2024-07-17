@@ -1,0 +1,48 @@
+.quality-card {
+  height: 380px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+  border-bottom-color: black;
+  border-bottom-width: 5px;
+  padding: 20px 10px;
+  opacity: 0; /* Hidden initially */
+  animation: fadeIn 1s forwards;
+  @media only screen and (max-width: 410px) {
+    height: 360px;
+    width: 380px;
+    margin: 0px 10px;
+  }
+  &:nth-child(1) {
+    animation-delay: 1s;
+  }
+  &:nth-child(3) {
+    animation-delay: 1.5s;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Starting position below */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* Ending position */
+    }
+  }
+  img {
+    height: 145px;
+  }
+  h2 {
+    font-weight: bolder;
+    color: #383e42;
+  }
+  p {
+    text-align: center;
+  }
+}
