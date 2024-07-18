@@ -12,6 +12,9 @@ import punctuality from '../assets/punctuality.png';
 import crashedCar from '../assets/crashedcar.jpg';
 import waitingMan from '../assets/waitingman.jpg';
 import towingcarlig from '../assets/towing-carlig.jpg';
+import contactEmail from '../assets/contactEmail.png';
+import map from '../assets/map.png';
+import phoneCall from '../assets/phone-call.png';
 
 export const homeServices = [
   {
@@ -92,3 +95,19 @@ export const qualities = [
 export const images = [
     crashedCar, towingcarlig, waitingMan
 ] 
+
+export const contactInfo = [{
+  id:1,
+  img: contactEmail,
+  text: '13carfix@gmail.com' 
+},
+{
+  id:2,
+  img: map,
+  text: 'Strada Grânelor, Fetești-Gară 925150' 
+},
+{
+  id:3,
+  img: phoneCall,
+  text: '+40 720 261 991 +40 731 682 466' 
+}]

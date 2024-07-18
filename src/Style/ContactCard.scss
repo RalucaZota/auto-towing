@@ -1,0 +1,20 @@
+.contact-card {
+    width: 400px;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    border-bottom-color: black;
+    border-bottom-width: 5px;
+    padding: 20px 10px;
+    img {
+        height: 145px;
+      }
+      h2 {
+        font-weight: bolder;
+      }    
+}

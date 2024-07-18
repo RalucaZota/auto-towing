@@ -9,8 +9,9 @@ import punctuality from '../assets/punctuality.png';
 import crashedCar from '../assets/crashedcar.jpg';
 import waitingMan from '../assets/waitingman.jpg';
 import towingcarlig from '../assets/towing-carlig.jpg';
+import {Reviews} from '../Components/Reviews';
 
-// Hook-ul pentru vizibilitate
+
 const useVisibility = (ref) => {
   const [isVisible, setIsVisible] = useState(false);
 
@@ -61,6 +62,7 @@ function AboutUs() {
             <QualityCard image={punctuality} title='Punctualitate' text='Ne deplasăm rapid pentru a interveni propt și deploca situația.'/>
           </div>
         </section>
+        <Reviews/>
       </div>
     </>
   );
