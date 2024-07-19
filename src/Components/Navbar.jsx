@@ -15,12 +15,9 @@ function Navbar() {
       <header>
         <img className='logo' src={logo} alt='logo tractari'/>
         <nav ref={navRef}>
-        <a href='/#'>Home</a>
-          <a href='/#'>Despre noi</a>
-          <a href='/#'>Servicii</a>
-          <a href='/#'>Contact</a>
-          {/* <Link to="/">Home</Link>
-          <Link to="/profile">Profile</Link> */}
+        <a href='#home'>Home</a>
+          <a href='#desprenoi'>Despre noi</a>
+          <a href='#contact'>Contact</a>
           <button className='nav-btn nav-btn-close' onClick={showNavbar}>
             <FaTimes />
           </button>

@@ -17,19 +17,19 @@ export const Reviews = () => {
       id: 1,
       image: Image1,
       title: "Gabriel Nastasoiu",
-      description: "Merita increderea.",
+      description: "Merită încrederea.",
     },
     {
       id: 2,
       image: Image2,
       title: "Julian",
-      description: "Nota 10, mereu cand vin aici cu o problema la masina, plec cu ea rezolvata",
+      description: "Nota 10, mereu când vin aici cu o problema la mașină, plec cu ea rezolvată.",
     },
     {
       id: 3,
       image: Image3,
       title: "Cristian Sarbu",
-      description: "Promptitudine si seriozitate.",
+      description: "Promptitudine și seriozitate.",
     },
     {
       id: 4,
@@ -41,8 +41,7 @@ export const Reviews = () => {
 
   return (
     <section className="testimonial container section" id="testimonials">
-      <h1 className="section__title">Testimonials</h1>
-      <span className="section__subtitle">People say</span>
+      <h1 className="section__title">RECENZII</h1>
       <Swiper
         className="testimonial__container"
         loop={true}

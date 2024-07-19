@@ -1,12 +1,14 @@
 .carousel {
   .carousel-indicators {
     bottom: 35px;
+    z-index: 1;
   }
   .carousel-item {
     img {
       width: 100%;
       @media only screen and (max-width: 1600px) {
         max-height: 840px;
+        min-height: 840px;
       }
     }
     .carousel-caption {
@@ -35,6 +37,9 @@
       background: rgba(0, 0, 0, 0.5);
       padding: 10px 20px;
       opacity: 0;
+      margin-bottom: 30px;
+      border-radius: 5px;
+      cursor: pointer;
       transform: translateX(-100%);
       animation: slideIn 3s forwards;
     }
@@ -45,12 +50,37 @@
         transform: translateX(0);
       }
     }
+
+    a {
+      text-decoration: none;
+      background: orange;
+      padding: 10px;
+      border-radius: 5px;
+      opacity: 0;
+      margin-left: 20px;
+      font-size: 20px;
+      margin-bottom: 30px;
+      color: black;
+      font-weight: bolder;
+      transform: translateX(-100%);
+      animation: slideIn 5s forwards;
+    }
+
+    @keyframes slideIn {
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+    
   }
   .carousel-control-next {
     .carousel-control-next-icon {
       display: none;
     }
+
   }
+
 
   .carousel-control-prev {
     .carousel-control-prev-icon {

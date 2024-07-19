@@ -72,7 +72,7 @@
       &::after {
         content: '';
         position: absolute;
-        bottom: 0;
+        bottom: -1;
         right: -54px;
         border-top: 66px solid #383e42;
         border-right: 55px solid transparent;

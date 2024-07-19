@@ -1,5 +1,27 @@
+h1 {
+  font-weight: bolder;
+  text-align: center;
+}
 .contact-info {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 80px 0;
+}
+.map-container {
+  text-align: center;
+  .map {
+    width: -webkit-fill-available;
+    margin: 0 140px 80px 140px;
+    border: 1px solid #383e42;
+    border-radius: 5px;
+    text-align: center;
+    @media screen and (max-width: 768px) {
+      min-width: 350px;
+      margin: 0 0 50px 0px;
+    }
+  }
 }

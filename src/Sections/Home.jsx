@@ -9,7 +9,7 @@ import OtherServicesCard from '../Components/OtherServicesCard.jsx';
 function Home() {
   return (
     <>
-      <div className='home'>
+      <div className='home' id='home'>
         <section className='section-one'>
           <div className='home-photo'>
             <img src={homePhoto} alt='' />

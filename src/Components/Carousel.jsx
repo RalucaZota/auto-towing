@@ -14,7 +14,9 @@ function CarouselFadeExample() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <p className='carousel-text'>National transport for vehicles and others.</p>
+        <p className='carousel-text'>Transport național pentru vehicule.
+          </p>
+          <a href="#contact">CONTACT</a>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -24,7 +26,10 @@ function CarouselFadeExample() {
           alt="Second slide"
         />
         <Carousel.Caption>
-          <p className='carousel-text'>National transport for vehicles and others.</p>
+        <p className='carousel-text'>Transport național pentru vehicule.
+          </p>
+          <a href="#contact">CONTACT</a>
+          
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -33,7 +38,9 @@ function CarouselFadeExample() {
           alt="Third slide"
         />
         <Carousel.Caption>
-          <p className='carousel-text'>National transport for vehicles and others.</p>
+        <p className='carousel-text'>Transport național pentru vehicule.
+          </p>
+          <a href="#contact">CONTACT</a>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

@@ -56,6 +56,9 @@ nav a {
     @media only screen and (min-width: 1025px) and (max-width: 1300px) {
         padding: 10px;
     }
+    @media only screen and (max-width: 1024px){
+        padding: 10px;
+    }
 
 }
 
@@ -94,15 +97,16 @@ header .nav-btn {
         position: fixed;
         top: 0;
         left: 0;
-        height: 35%;
+        height: 38%;
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 1.5rem;
         justify-content: center;
-        background-color: var(--mainColor);
+        background-color: #748088;
         transition: 2s;
+        border-radius: none !important;
+        z-index: inherit;
         transform: translateY(-100vh);
     }
 

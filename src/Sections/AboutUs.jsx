@@ -41,16 +41,16 @@ function AboutUs() {
 
   return (
     <>
-      <div className='about-us'>
+      <div className='about-us' id='desprenoi'>
         <section className='section-one'>
           <div className='description'>
-            <h1>De ce X?</h1>
+            <h1>DE CE CARFIX GARAGE?</h1>
             <p>{textAboutUs.text}</p>
           </div>
           <img src={img} alt='description-img' />
         </section>
         <section className='section-two' ref={sectionTwoRef}>
-          <h1>Ce oferim?</h1>
+          <h1>CE OFERIM?</h1>
           <div className={`images-wrapper ${isVisible ? 'visible' : ''}`}>
             <img src={crashedCar} alt="crashedCar" />
             <QualityCard image={protection} title='Siguranta' text='Angajații noștri sunt atent instruiți pentru a manipula autovehiculele fără a produce avarii.'/>
