@@ -32,13 +32,6 @@ export const homeServices = [
       'Carfix Garage oferă în prezent servicii de transport auto național non-stop, atât local - București, cât și intern.',
   },
   {
-    id: 3,
-    image: calendar,
-    title: 'LIVRARE LA TIMP',
-    paragraph:
-      "Oferim transport de echipamente din orice zonă din România, urmărind întotdeauna să fim punctuali în funcție de solicitările clienților noștri.",
-  },
-  {
     id: 4,
     image: teamImage,
     title: 'ECHIPĂ DE EXPERȚI',

@@ -15,7 +15,7 @@
   -webkit-box-shadow: 22px 10px 30px -3px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 22px 10px 30px -3px rgba(0, 0, 0, 0.75);
   box-shadow: 22px 10px 30px -3px rgba(0, 0, 0, 0.75);
-  &:first-child {
+  &:nth-child(3) {
     img {
       margin-top: -25px;
     }

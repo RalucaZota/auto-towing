@@ -1,21 +1,36 @@
 .carousel {
   .carousel-indicators {
     bottom: 35px;
-    z-index: 1;
+    z-index: 2;
+    @media only screen and (min-width: 1400px) {
+      bottom: 70px;
+    }
   }
   .carousel-item {
-    img {
-      width: 100%;
-      @media only screen and (max-width: 1600px) {
-        max-height: 840px;
-        min-height: 840px;
+    .slide-one,
+    .slide-two,
+    .slide-three {
+      min-height: 840px;
+      background-position: center;
+      background-size: cover;
+      @media only screen and (min-width: 2000px) {
+        min-height: 1100px;
       }
     }
+    .slide-one {
+      background-image: url(../assets//slide3.jpg);
+    }
+    .slide-two {
+      background-image: url(../assets//slide2.jpg);
+    }
+    .slide-three {
+      background-image: url(../assets//slide1.jpg);
+    }
     .carousel-caption {
-        right: 60%;
-        bottom: 42%;
-        padding-top: 0;
-        padding-bottom: 0;
+      right: 60%;
+      bottom: 42%;
+      padding-top: 0;
+      padding-bottom: 0;
     }
   }
   .carousel-item:nth-child(3) {
@@ -64,6 +79,7 @@
       font-weight: bolder;
       transform: translateX(-100%);
       animation: slideIn 5s forwards;
+      transition: transform 0.3s ease, border 0.3s ease;
     }
 
     @keyframes slideIn {
@@ -72,15 +88,12 @@
         transform: translateX(0);
       }
     }
-    
   }
   .carousel-control-next {
     .carousel-control-next-icon {
       display: none;
     }
-
   }
-
 
   .carousel-control-prev {
     .carousel-control-prev-icon {

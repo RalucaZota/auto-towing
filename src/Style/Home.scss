@@ -6,7 +6,7 @@
     @media only screen and (min-width: 1400px) {
       display: flex;
       gap: 100px;
-      height: 650px;
+      height: 485px;
       padding: 34px 10px 0px 20px;
 
       &::after {
@@ -32,10 +32,11 @@
         display: none;
         @media only screen and (min-width: 1400px) {
           display: block;
-          top: -48px;
+          top: -120px;
           width: 650px;
           border: 10px solid #383e42;
           margin-left: 70px;
+          height: 650px;
         }
       }
     }
@@ -49,7 +50,10 @@
   }
 
   .section-two {
-    margin-top: 80px;
+    margin-top: 60px;
+    @media only screen and (min-width: 1400px) {
+      margin-top: 100px;
+    }
     h1 {
       font-weight: 700;
       text-align: center;
