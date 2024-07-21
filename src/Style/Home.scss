@@ -7,7 +7,7 @@
       display: flex;
       gap: 100px;
       height: 485px;
-      padding: 34px 10px 0px 20px;
+      padding: 21px 10px 0px 20px;
 
       &::after {
         content: '';
@@ -32,7 +32,7 @@
         display: none;
         @media only screen and (min-width: 1400px) {
           display: block;
-          top: -120px;
+          top: -105px;
           width: 650px;
           border: 10px solid #383e42;
           margin-left: 70px;

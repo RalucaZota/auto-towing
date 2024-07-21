@@ -2,7 +2,7 @@ import React from 'react';
 import '../Style/Header.scss'
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { useRef } from 'react';
-import logo from '../assets/logo.png'
+import logo from '../assets/TractăriLogo.png'
 
 function Navbar() {
   const navRef = useRef();
@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <>
       <header>
-        <img className='logo' src={logo} alt='logo tractari'/>
+        <img className='logo' src={logo} alt='logo-tractari'/>
         <nav ref={navRef}>
         <a href='#home'>Home</a>
           <a href='#desprenoi'>Despre noi</a>

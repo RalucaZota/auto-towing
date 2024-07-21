@@ -22,14 +22,14 @@ export const homeServices = [
     image: hoursImage,
     title: '24/7 NON STOP',
     paragraph:
-      'Carfix Garage funcționează pe baza unui dispecerat comun care preia comenzi și solicitări timp de 24/24 ore și 7/7 zile.',
+      'Tractări Carfix Garage funcționează pe baza unui dispecerat comun care preia comenzi și solicitări timp de 24/24 ore și 7/7 zile.',
   },
   {
     id: 2,
     image: mapsImage,
     title: 'TRANSPORT NAȚIONAL',
     paragraph:
-      'Carfix Garage oferă în prezent servicii de transport auto național non-stop, atât local - București, cât și intern.',
+      'Tractări Carfix Garage oferă în prezent servicii de transport auto național non-stop.',
   },
   {
     id: 4,
@@ -54,13 +54,13 @@ export const otherServices = [
     backImg: washImg,
     icon: carWash,
     title: 'SPLATORIE AUTO',
-    paragraph: 'Spalatorie auto situata lângă autostrada A2.',
+    paragraph: 'Spalatorie auto situată lângă autostrada A2.',
     detailsLink: 'https://carfix-garage.ro/',
   },
 ];
 
 export const textAboutUs = {
-  text: 'Carfix Garage a luat ființă din nevoia de ajutor în situațiile rutiere de urgență, pe teritoriul României, punând la dispoziția clienților săi servicii de asistență rutieră non-stop, atunci când autoturismul este imobilizat, ajutându-i să minimalizeze costurile, prompt și eficient.',
+  text: 'Tractări Carfix Garage a luat ființă din nevoia de ajutor în situațiile rutiere de urgență, pe teritoriul României, punând la dispoziția clienților săi servicii de asistență rutieră non-stop, atunci când autoturismul este imobilizat, ajutându-i să minimalizeze costurile, prompt și eficient.',
 };
 
 export const qualities = [

@@ -8,7 +8,7 @@ function ContactCard({ img, text, phones }) {
   }
   return (
     <div className='contact-card'>
-      <img src={img} alt='img' />
+      <img src={img} alt='contact-img' />
       {text && <h2>{text}</h2>}
       {phones && phones.length > 0 && (
         <div className='phones'>

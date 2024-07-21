@@ -28,16 +28,16 @@ function Contact() {
     <h1 id='contact'>CONTACT</h1>
     <div className='contact-info' >
     <div className='contact-card'>
-      <img src={phoneCall} alt='img' />    
+      <img src={phoneCall} alt='contact-card' />    
       <h2 onClick={CallMe1}>+40 720 261 991</h2>
       <h2 onClick={CallMe2}>+40 731 682 466</h2>
     </div>
     <div className='contact-card'>
-      <img src={map} alt='img' />    
+      <img src={map} alt='contact-card' />    
       <h2>Strada Grânelor, Fetești-Gară 925150</h2>
     </div>
     <div className='contact-card' onClick={() => Email('13carfix@gmail.com')}>
-      <img src={email} alt='img' />    
+      <img src={email} alt='contact-card' />    
       <h2>13carfix@gmail.com</h2>
     </div>
         

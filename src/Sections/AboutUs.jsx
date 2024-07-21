@@ -43,7 +43,7 @@ function AboutUs() {
       <div className='about-us' id='desprenoi'>
         <section className='section-one'>
           <div className='description'>
-            <h1>DE CE CARFIX GARAGE?</h1>
+            <h1>DE CE TRACTĂRI CARFIX GARAGE?</h1>
             <p>{textAboutUs.text}</p>
           </div>
           <img src={img} alt='description-img' />

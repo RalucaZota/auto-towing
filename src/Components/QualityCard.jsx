@@ -6,7 +6,7 @@ function QualityCard({image, title, text}) {
   return (
   <>
   <div className='quality-card'>
-    <img src={image} alt="image" />
+    <img src={image} alt="quality-card" />
     <h2>{title}</h2>
     <p>{text}</p>
   </div>
