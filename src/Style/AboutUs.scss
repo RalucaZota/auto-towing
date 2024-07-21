@@ -5,12 +5,18 @@
     align-items: center;
     margin-top: 80px;
     padding: 20px;
-    background: rgb(142, 142, 145);
-    background: linear-gradient(
-      90deg,
-      rgba(142, 142, 145, 1) 47%,
-      rgba(255, 255, 255, 1) 71%
-    );
+    background-color: #383e42;
+    &::after {
+      content: '';
+      background-image: url(../assets//background-models.png);
+      width: 100%;
+      background-repeat: repeat;
+      position: absolute;
+      width: 100%;
+      height: 37%;
+      right: 16px;
+      background-size: contain;
+    }
     @media only screen and (min-width: 1400px) {
       gap: 25px;
       padding: 40px;
@@ -19,6 +25,7 @@
       width: -webkit-fill-available;
       border-radius: 15%;
       animation: pulse 3s infinite;
+      z-index: 2;
       @media only screen and (max-width: 567px) {
         height: 220px;
       }
@@ -53,6 +60,7 @@
     .description {
       font-size: 22px;
       padding: 10px 20px;
+      color: white;
       @media only screen and (max-width: 1024px) {
         font-size: 18px;
       }
@@ -64,6 +72,7 @@
         font-weight: 700;
         text-align: center;
         padding: 0 20px;
+        color: white;
       }
     }
   }
@@ -74,8 +83,9 @@
       text-align: center;
       font-weight: 700;
       margin-bottom: 50px;
+      color: white;
     }
-    .cards-wrapper {
+    .cards-wrapper { 
       > img {
         height: 380px;
         width: 400px;
@@ -89,6 +99,27 @@
           height: 340px;
           width: 360px;
           padding: 10px;
+        }
+      }
+      .quality-card {
+        height: 380px;
+        width: 400px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        border: 1px solid gray;
+        border-radius: 5px;
+        border-bottom-color: black;
+        border-bottom-width: 5px;
+        padding: 20px 10px;
+        opacity: 0;
+        transition: opacity 3s ease-out, transform 3s ease-out;
+        @media only screen and (max-width: 410px) {
+          height: 360px;
+          width: 380px;
+          margin: 0px 10px;
         }
       }
     }
@@ -145,8 +176,7 @@
     }
     .images-wrapper.visible,
     .cards-wrapper.visible {
-      .quality-card,
-      > img {
+      .quality-card, img {
         opacity: 1;
         transform: translateY(0);
       }

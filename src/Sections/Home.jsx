@@ -1,7 +1,6 @@
 import React from 'react';
 import '../Style/Home.scss';
 import homePhoto from '../assets/home-photo.jpg';
-import towingHome from '../assets/towing-home.jpg';
 import Card from '../Components/Card.jsx';
 import { homeServices } from '../Data/Data.js';
 import OtherServicesCard from '../Components/OtherServicesCard.jsx';

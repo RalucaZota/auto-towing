@@ -41,6 +41,7 @@ export const Reviews = () => {
 
   return (
     <section className="testimonial container section" id="testimonials">
+      <div className='parallax'>
       <h1 className="section__title">RECENZII</h1>
       <Swiper
         className="testimonial__container"
@@ -49,7 +50,7 @@ export const Reviews = () => {
           delay: 2500,
           disableOnInteraction: false,
         }}
-        grabCursor={true}
+        grabCursor={true} 
         spaceBetween={24}
         pagination={{
           clickable: true,
@@ -73,6 +74,7 @@ export const Reviews = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+      </div>
     </section>
   );
 };

@@ -34,7 +34,6 @@ const useVisibility = (ref) => {
 
   return isVisible;
 };
-
 function AboutUs() {
   const sectionTwoRef = useRef();
   const isVisible = useVisibility(sectionTwoRef);
@@ -50,7 +49,7 @@ function AboutUs() {
           <img src={img} alt='description-img' />
         </section>
         <section className='section-two' ref={sectionTwoRef}>
-          <h1>CE OFERIM?</h1>
+          <h1>CE OFERIM? </h1>
           <div className={`images-wrapper ${isVisible ? 'visible' : ''}`}>
             <img src={crashedCar} alt="crashedCar" />
             <QualityCard image={protection} title='Siguranta' text='Angajații noștri sunt atent instruiți pentru a manipula autovehiculele fără a produce avarii.'/>
@@ -58,7 +57,7 @@ function AboutUs() {
           </div>
           <div className={`cards-wrapper ${isVisible ? 'visible' : ''}`}>
             <QualityCard image={professionalism} title='Profesionalism' text='Lucrăm la standarde europene și oferim întodeauna servicii de calitate și la prețuri avantajoase.'/>
-            <img src={waitingMan} alt="waitingMan" />
+            <img src={waitingMan} alt="waitingMan" /> 
             <QualityCard image={punctuality} title='Punctualitate' text='Ne deplasăm rapid pentru a interveni propt și deploca situația.'/>
           </div>
         </section>

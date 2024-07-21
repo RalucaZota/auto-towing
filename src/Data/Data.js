@@ -46,7 +46,7 @@ export const otherServices = [
     backImg: serviceImg,
     icon: carService,
     title: 'SERVICE AUTO',
-    paragraph: 'Service auto situat langa autostrada A2.',
+    paragraph: 'Service auto situat lângă autostrada A2.',
     detailsLink: 'https://carfix-garage.ro/',
   },
   {
@@ -54,7 +54,7 @@ export const otherServices = [
     backImg: washImg,
     icon: carWash,
     title: 'SPLATORIE AUTO',
-    paragraph: 'Spalatorie auto situata langa autostrada A2.',
+    paragraph: 'Spalatorie auto situata lângă autostrada A2.',
     detailsLink: 'https://carfix-garage.ro/',
   },
 ];

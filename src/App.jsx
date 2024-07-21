@@ -12,16 +12,14 @@ function App() {
 
   return (
     <BrowserRouter>
-    {/* <Routes>
-    <Route path="/" element={<Home />} />
-    <Route path="/" element={<About />} />
-    </Routes> */}
     <TopBar/>
     <Navbar/>
     <HeroCarousel/>
+    <div className='parallax'>
     <Home/>
     <AboutUs/>
     <Contact/>
+    </div>
     <Footer/>
     </BrowserRouter>
   )
