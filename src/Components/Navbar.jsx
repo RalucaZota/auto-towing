@@ -1,8 +1,8 @@
 import React from 'react';
-import '../Style/Header.scss'
+import '../Style/Header.scss';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { useRef } from 'react';
-import logo from '../assets/TractăriLogo.png'
+import logo from '../assets/TractăriLogo.png';
 
 function Navbar() {
   const navRef = useRef();
@@ -10,14 +10,24 @@ function Navbar() {
   function showNavbar() {
     navRef.current.classList.toggle('responsive-nav');
   }
+
+  function closeNavbar() {
+    navRef.current.classList.remove('responsive-nav');
+  }
   return (
     <>
       <header>
-        <img className='logo' src={logo} alt='logo-tractari'/>
+        <img className='logo' src={logo} alt='logo-tractari' />
         <nav ref={navRef}>
-        <a href='#home'>Home</a>
-          <a href='#desprenoi'>Despre noi</a>
-          <a href='#contact'>Contact</a>
+          <a href='#home' onClick={closeNavbar}>
+            Home
+          </a>
+          <a href='#desprenoi' onClick={closeNavbar}>
+            Despre noi
+          </a>
+          <a href='#contact' onClick={closeNavbar}>
+            Contact
+          </a>
           <button className='nav-btn nav-btn-close' onClick={showNavbar}>
             <FaTimes />
           </button>
