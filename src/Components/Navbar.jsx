@@ -2,7 +2,7 @@ import React from 'react';
 import '../Style/Header.scss';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { useRef } from 'react';
-import logo from '../assets/TractăriLogo.png';
+import logo from '/TractariLogo.png';
 
 function Navbar() {
   const navRef = useRef();

@@ -43,7 +43,7 @@ function Contact() {
         
     </div>
     <div className='map-container'>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2849.8567827500347!2d27.808618499999998!3d44.4155845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b0659052a2071f%3A0xcdb20080506e730f!2sCarFix%20Garage!5e0!3m2!1sro!2sro!4v1721293736186!5m2!1sro!2sro" height="450"  loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='map'></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2849.8567827500347!2d27.808618499999998!3d44.4155845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b0659052a2071f%3A0xcdb20080506e730f!2sCarFix%20Garage!5e0!3m2!1sro!2sro!4v1721293736186!5m2!1sro!2sro" height="450"  loading="lazy" referrerPolicy="no-referrer-when-downgrade" className='map'></iframe>
     </div>
     </>
   )
