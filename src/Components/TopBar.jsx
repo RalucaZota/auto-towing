@@ -11,12 +11,12 @@ function TopBar() {
   }
 
   function CallMe1() {
-    window.location.href = 'tel: +40720261991'
-  } 
+    window.location.href = 'tel: +40720261991';
+  }
 
   function CallMe2() {
-    window.location.href = 'tel: +40720261991'
-  } 
+    window.location.href = 'tel: +40731682466';
+  }
 
   return (
     <>
@@ -25,15 +25,14 @@ function TopBar() {
           <span>24/24 NON STOP</span>
         </div>
         <div className='topbar-numbers'>
-          <a target='_blank' href='https://wa.me/0720261991?'>
+          <a target='_blank' href='https://wa.me/+40731682466?'>
             <img src={whatsapp} alt='whatsapp' height='35' width='35' />{' '}
           </a>
-            <span onClick={CallMe1} >0720261991</span>
-
-          <a target='_blank' href='https://wa.me/0731682466?'>
+          <span onClick={CallMe2}>0731682466</span>
+          <a target='_blank' href='https://wa.me/+40720261991?'>
             <img src={whatsapp} alt='whatsapp' height='35' width='35' />{' '}
           </a>
-            <span onClick={CallMe2} >0731682466</span>
+          <span onClick={CallMe1}>0720261991</span>
         </div>
       </div>
     </>

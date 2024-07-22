@@ -29,8 +29,8 @@ function Contact() {
     <div className='contact-info' >
     <div className='contact-card'>
       <img src={phoneCall} alt='contact-card' />    
-      <h2 onClick={CallMe1}>+40 720 261 991</h2>
       <h2 onClick={CallMe2}>+40 731 682 466</h2>
+      <h2 onClick={CallMe1}>+40 720 261 991</h2>
     </div>
     <div className='contact-card'>
       <img src={map} alt='contact-card' />    
