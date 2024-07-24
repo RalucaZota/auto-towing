@@ -43,7 +43,7 @@ function Footer() {
         </div>
         <div className='footer-contact'>
           <h4>Contact</h4>
-          <p>+40 720 261 991/+40 731 682 466</p>
+          <p>+40 731 682 466/+40 720 261 991</p>
           <p>Email: 13carfix@gmail.com</p>
         </div>
         <div className='footer-program'>
