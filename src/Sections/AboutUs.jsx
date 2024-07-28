@@ -58,7 +58,7 @@ function AboutUs() {
           <div className={`cards-wrapper ${isVisible ? 'visible' : ''}`}>
             <QualityCard image={professionalism} title='Profesionalism' text='Lucrăm la standarde europene și oferim întodeauna servicii de calitate și la prețuri avantajoase.'/>
             <img src={waitingMan} alt="waitingMan" /> 
-            <QualityCard image={punctuality} title='Punctualitate' text='Ne deplasăm rapid pentru a interveni propt și deploca situația.'/>
+            <QualityCard image={punctuality} title='Punctualitate' text='Ne deplasăm rapid pentru a interveni prompt și debloca situația.'/>
           </div>
         </section>
         <Reviews/>

@@ -53,8 +53,8 @@ export const otherServices = [
     id: 2,
     backImg: washImg,
     icon: carWash,
-    title: 'SPLATORIE AUTO',
-    paragraph: 'Spalatorie auto situată lângă autostrada A2.',
+    title: 'SPĂLĂTORIE AUTO',
+    paragraph: 'Spălătorie auto situată lângă autostrada A2.',
     detailsLink: 'https://carfix-garage.ro/',
   },
 ];
@@ -80,7 +80,7 @@ export const qualities = [
     id: 3,
     img: punctuality,
     title: 'Punctualitate',
-    text: 'Ne deplasăm rapid pentru a interveni propt și deploca situația.',
+    text: 'Ne deplasăm rapid pentru a interveni prompt și debloca situația.',
   },
 ];
 

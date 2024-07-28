@@ -15,25 +15,25 @@ export const Reviews = () => {
   const Data = [
     {
       id: 1,
-      image: Image1,
+      image: Image4,
       title: "Gabriel Nastasoiu",
       description: "Merită încrederea.",
     },
     {
       id: 2,
-      image: Image2,
+      image: Image1,
       title: "Julian",
       description: "Nota 10, mereu când vin aici cu o problema la mașină, plec cu ea rezolvată.",
     },
     {
       id: 3,
-      image: Image3,
+      image: Image2,
       title: "Cristian Sarbu",
       description: "Promptitudine și seriozitate.",
     },
     {
       id: 4,
-      image: Image4,
+      image: Image3,
       title: 'Nini Iordache',
       description: "Profesionalism, rapiditate.",
     },
